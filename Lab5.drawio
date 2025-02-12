@@ -223,11 +223,6 @@
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-50" value="state_idle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-705" y="1088" width="170" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="kdzPkUjt_pwpQdsMTj5A-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-51" target="kdzPkUjt_pwpQdsMTj5A-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-280" y="1310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-51" target="kdzPkUjt_pwpQdsMTj5A-73">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -243,9 +238,6 @@
         </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-53" value="start = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-380" y="1178" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kdzPkUjt_pwpQdsMTj5A-55" value="&lt;div align=&quot;left&quot;&gt;const_select = 0; (SOF)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;data_out = data_const?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="1220" width="140" height="190" as="geometry" />
         </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-56" target="kdzPkUjt_pwpQdsMTj5A-50">
           <mxGeometry relative="1" as="geometry" />
@@ -276,17 +268,11 @@
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-62" value="end_packet = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kdzPkUjt_pwpQdsMTj5A-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-65" target="kdzPkUjt_pwpQdsMTj5A-68">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-65" target="kdzPkUjt_pwpQdsMTj5A-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-65" value="&lt;div&gt;state_done&lt;/div&gt;&lt;div&gt;const_select = 1;&lt;/div&gt;&lt;div&gt;data_out = data_const;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1020" y="1380" width="210" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="kdzPkUjt_pwpQdsMTj5A-68" value="&lt;div&gt;const_select = 1 (EOF)&lt;/div&gt;&lt;div&gt;get data_const for EOF&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;data_out = data_const?&lt;/div&gt;&lt;div&gt;load = 1;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-1230" y="1353" width="120" height="190" as="geometry" />
         </mxCell>
         <mxCell id="kdzPkUjt_pwpQdsMTj5A-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdzPkUjt_pwpQdsMTj5A-73" target="kdzPkUjt_pwpQdsMTj5A-59">
           <mxGeometry relative="1" as="geometry" />
