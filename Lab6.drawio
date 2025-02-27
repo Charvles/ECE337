@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="uz-ISEkMkpy3JlYTRd4P">
-    <mxGraphModel dx="2403" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2519" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         <mxCell id="TmYf55Ae-JYS25pkBuSo-8" value="~n_rst" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-780" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmYf55Ae-JYS25pkBuSo-15" target="gcleOuCmj5GNLYwZ8Q55-7">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TmYf55Ae-JYS25pkBuSo-15" target="gcleOuCmj5GNLYwZ8Q55-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-385" y="630" />
@@ -37,7 +37,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmYf55Ae-JYS25pkBuSo-15" target="gcleOuCmj5GNLYwZ8Q55-9">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TmYf55Ae-JYS25pkBuSo-15" target="gcleOuCmj5GNLYwZ8Q55-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TmYf55Ae-JYS25pkBuSo-15" value="&lt;div&gt;state_process_packet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sbc_enable = 1;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
@@ -46,17 +46,17 @@
         <mxCell id="TmYf55Ae-JYS25pkBuSo-28" value="packet_done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-380" y="380" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gcleOuCmj5GNLYwZ8Q55-7" target="TmYf55Ae-JYS25pkBuSo-3">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gcleOuCmj5GNLYwZ8Q55-7" target="TmYf55Ae-JYS25pkBuSo-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1074" y="134" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-7" value="&lt;div&gt;state_load_buffer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;load_buffer = 1;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-7" value="&lt;div&gt;state_load_buffer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;load_buffer = 1;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="290" width="211" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gcleOuCmj5GNLYwZ8Q55-9" target="TmYf55Ae-JYS25pkBuSo-3">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gcleOuCmj5GNLYwZ8Q55-9" target="TmYf55Ae-JYS25pkBuSo-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-804" y="180" />
@@ -64,20 +64,172 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-9" value="&lt;div&gt;state_check_framing_error&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sbc_clear = 1;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-9" value="&lt;div&gt;state_check_framing_error&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sbc_clear = 1;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-910" y="290" width="211" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-11" value="framing-error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-11" value="framing-error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-675" y="508" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-12" value="~framing_error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-12" value="~framing_error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-820" y="600" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-19" value="~framing-error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-19" value="~framing-error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-800" y="230" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcleOuCmj5GNLYwZ8Q55-38" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{ signal: [&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;Start of Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P|.................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;1|3.........2......&#39;, data:[&#39;Start Bit&#39;,&#39;Data[0]&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..10......x......&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..........1......&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3|3.........3......&#39;, data:&quot;0 1 2&quot;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;shift_strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..............10.&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3|..........4......&#39;, data:[&#39;0&#39;,&#39;1&#39;,]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|.................&#39;}],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;Mid-Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;2......2.........2.&#39;, data:[&#39;Data[3]&#39;,&#39;Data[4]&#39;,&#39;Data[5]&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;x..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;1..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3......3.........3.&#39;, data:[&#39;5&#39;,&#39;6&#39;,&#39;7&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0.10........10.....&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;4......4.........4.&#39;, data:[&#39;4&#39;,&#39;5&#39;,&#39;6&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0..................&#39;}],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;End of Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;2......4.........1.&#39;, data:[&#39;Data[7]&#39;,&#39;Stop Bit&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;x..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;1......0...........&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3......3.........3.&#39;, data:[&#39;9&#39;,&#39;10&#39;,&#39;11&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0.10...............&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;4..................&#39;, data:[&#39;8&#39;,]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0................10&#39;}]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gcleOuCmj5GNLYwZ8Q55-38" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{ signal: [&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;Start of Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P|.................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;1|3.........2......&#39;, data:[&#39;Start Bit&#39;,&#39;Data[0]&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..10......x......&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..........1......&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3|3.........3......&#39;, data:&quot;0 1 2&quot;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;shift_strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|..............10.&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3|..........4......&#39;, data:[&#39;0&#39;,&#39;1&#39;,]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0|.................&#39;}],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;Mid-Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;2......2.........2.&#39;, data:[&#39;Data[3]&#39;,&#39;Data[4]&#39;,&#39;Data[5]&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;x..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;1..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3......3.........3.&#39;, data:[&#39;5&#39;,&#39;6&#39;,&#39;7&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0.10........10.....&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;4......4.........4.&#39;, data:[&#39;4&#39;,&#39;5&#39;,&#39;6&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0..................&#39;}],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; [&#39;End of Packet&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;P..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;serial_in&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;2......4.........1.&#39;, data:[&#39;Data[7]&#39;,&#39;Stop Bit&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;new packet det&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;x..................&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;enable&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;1......0...........&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;clock count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;3......3.........3.&#39;, data:[&#39;9&#39;,&#39;10&#39;,&#39;11&#39;]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;strobe&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0.10...............&#39;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; {name: &#39;bit count&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;wave: &#39;4..................&#39;, data:[&#39;8&#39;,]},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;{name: &#39;packet_done&#39;,&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&#x9;&lt;/span&gt;wave: &#39;0................10&#39;}]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-865" y="750" width="430" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-780" y="1745" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-2" value="RCU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XtnPERNbyxdo-gfmvyaL-1">
+          <mxGeometry width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-3" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="XtnPERNbyxdo-gfmvyaL-1">
+          <mxGeometry y="130" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-4" value="load_buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-575.5" y="1751" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-5" value="clk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1875" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-7" target="XtnPERNbyxdo-gfmvyaL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-7" value="n_rst" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-804" y="1960" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-2" target="XtnPERNbyxdo-gfmvyaL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="1695" />
+              <mxPoint x="-382" y="1695" />
+            </Array>
+            <mxPoint x="-995" y="1635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-10" value="sbc_clear" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1665" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-16" target="XtnPERNbyxdo-gfmvyaL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-16" target="XtnPERNbyxdo-gfmvyaL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-267" y="2055" />
+              <mxPoint x="-750" y="2055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-16" target="XtnPERNbyxdo-gfmvyaL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-325" y="2005" />
+              <mxPoint x="-720" y="2005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-16" value="&lt;div align=&quot;center&quot;&gt;Receiver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1730" width="230" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-18" target="XtnPERNbyxdo-gfmvyaL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-18" value="&lt;div&gt;Next_State Logic&lt;/div&gt;&lt;div&gt;per State Transition Diagram&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1099" y="1720" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-19" value="next_state[3:0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1805" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-2" target="XtnPERNbyxdo-gfmvyaL-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-445" y="1803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-24" value="framing_error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="2020" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.006;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-2" target="XtnPERNbyxdo-gfmvyaL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-26" value="state[3:0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="1751" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-27" value="packet-done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="1973" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-28" value="new_packet_detected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-605.5" y="1930" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-2" target="XtnPERNbyxdo-gfmvyaL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-750" y="1660" />
+              <mxPoint x="-325" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-31" value="sbc_enable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1630" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-33" value="&lt;div align=&quot;center&quot;&gt;Timer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-894" y="1360" width="230" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.136;exitY=0.016;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="XtnPERNbyxdo-gfmvyaL-2" target="XtnPERNbyxdo-gfmvyaL-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-780.3333333333333" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-35" value="enable_timer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="1608" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-821" y="2515" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-38" value="Timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XtnPERNbyxdo-gfmvyaL-37">
+          <mxGeometry width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-39" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="XtnPERNbyxdo-gfmvyaL-37">
+          <mxGeometry y="130" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-40" value="packet_done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-621.5" y="2521" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-41" value="clk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-861" y="2645" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" source="XtnPERNbyxdo-gfmvyaL-43" target="XtnPERNbyxdo-gfmvyaL-38" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-43" value="n_rst" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-846" y="2735" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" source="XtnPERNbyxdo-gfmvyaL-49" target="XtnPERNbyxdo-gfmvyaL-38" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-49" value="&lt;div align=&quot;center&quot;&gt;RCU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="2506" width="230" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" source="XtnPERNbyxdo-gfmvyaL-38" target="XtnPERNbyxdo-gfmvyaL-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-486" y="2573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-58" value="enable_timer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-621.5" y="2700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-61" value="&lt;div align=&quot;center&quot;&gt;Receiver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-904.75" y="2266" width="200.5" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.136;exitY=0.016;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" source="XtnPERNbyxdo-gfmvyaL-38" target="XtnPERNbyxdo-gfmvyaL-61" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-821.3333333333333" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtnPERNbyxdo-gfmvyaL-63" value="shift_strobe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-911" y="2430" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
