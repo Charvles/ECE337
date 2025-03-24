@@ -8,7 +8,7 @@
           <mxGeometry x="-1010" y="1735.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Q1wwCRgIi2AKPoYCSTs-5" value="~n_rst" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-944" y="1860" width="60" height="30" as="geometry" />
+          <mxGeometry x="-925" y="1860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6Q1wwCRgIi2AKPoYCSTs-9" value="&lt;div&gt;APB Subordinate Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-955" y="1200" width="425" height="620" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry x="-1160" y="1275" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CZO7XyWw4zvVWq6dPt2m-10" value="rx_data[7:0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1170" y="1500" width="90" height="30" as="geometry" />
+          <mxGeometry x="-1170" y="1504" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CZO7XyWw4zvVWq6dPt2m-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CZO7XyWw4zvVWq6dPt2m-11" target="CZO7XyWw4zvVWq6dPt2m-4">
           <mxGeometry relative="1" as="geometry" />
