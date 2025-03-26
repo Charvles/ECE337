@@ -353,7 +353,7 @@
         <mxCell id="P8tDhj-U9RX823LFl9GG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P8tDhj-U9RX823LFl9GG-1" target="e_LtIGF7NNEtgVZw4Auk-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P8tDhj-U9RX823LFl9GG-1" value="&lt;div&gt;Reset_result register&lt;/div&gt;&lt;div&gt;******************************&lt;/div&gt;&lt;div&gt;op = LOAD1&lt;/div&gt;&lt;div&gt;r1 = ext_data1;&lt;/div&gt;&lt;div&gt;modwait = 1&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="P8tDhj-U9RX823LFl9GG-1" value="&lt;div&gt;Reset_result register&lt;/div&gt;&lt;div&gt;******************************&lt;/div&gt;&lt;div&gt;op = sub&lt;/div&gt;&lt;div&gt;r0 = r0 - r0;&lt;/div&gt;&lt;div&gt;modwait = 1&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="751" y="-40" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="P8tDhj-U9RX823LFl9GG-4" value="Create an overflow for mult and add" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
