@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.2.12">
   <diagram name="Page-1" id="CIUqX_opJBH0Y3FECrZX">
-    <mxGraphModel dx="4590" dy="3297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4230" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,8 +239,8 @@
         <mxCell id="UGpiMF6Xy7v_J2eOc4yS-6" value="~n_rst" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1715" y="881" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UGpiMF6Xy7v_J2eOc4yS-7" value="&lt;div&gt;Most of the registers are just combinational, but for the read/write registers&lt;/div&gt;&lt;div&gt;it needs to be FFs. For data buffer, you would need special logic to push/pop&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Check data packet for ACK/NACK , ...&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1300" y="-874.38" width="430" height="90" as="geometry" />
+        <mxCell id="UGpiMF6Xy7v_J2eOc4yS-7" value="&lt;div&gt;Most of the registers are just combinational, but for the read/write registers&lt;/div&gt;&lt;div&gt;it needs to be FFs. For data buffer, you would need special logic to push/pop&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Check data packet for ACK/NACK , ...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- The RX_Data is 1 byte (8 bit), the maximum hrdata is 4 bytes, so hready needs &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;to be set to 0 to lengthen the transaction until the data packets are received&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1310" y="-884.38" width="450" height="110" as="geometry" />
         </mxCell>
         <mxCell id="UGpiMF6Xy7v_J2eOc4yS-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-745" y="-132.5" width="135" height="229" as="geometry" />
