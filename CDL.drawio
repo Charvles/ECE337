@@ -123,6 +123,16 @@
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-21" value="Buffer Occupancy Register (0x8)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1685" y="-310" width="335" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QHRbs6eN2zpw3UnOuxiN-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QHRbs6eN2zpw3UnOuxiN-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-24" value="TX Packet Control Register (0xC)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1685" y="-226" width="340" height="60" as="geometry" />
         </mxCell>
@@ -519,6 +529,18 @@
           <mxGeometry x="-1500" y="-790" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lzEfek82S-WKOb3gacOX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.641;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lzEfek82S-WKOb3gacOX-14" target="QHRbs6eN2zpw3UnOuxiN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-17" value="TX_Packet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-222" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-19" value="TX_DATA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-194.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-20" value="hburst [3:0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lzEfek82S-WKOb3gacOX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lzEfek82S-WKOb3gacOX-20" target="QHRbs6eN2zpw3UnOuxiN-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
