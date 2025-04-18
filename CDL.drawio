@@ -622,6 +622,9 @@
         <mxCell id="jATdmOZhkiR0QLXZzmjE-1" value="Assigning to Get-RX / Store_TX depending on hwrite&lt;br&gt;&lt;br&gt;&lt;div&gt;Might want to get rid of byte_counter and use haddr + 1&lt;/div&gt;&lt;div&gt;to assign values to regs&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2180" y="-1162" width="320" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="jATdmOZhkiR0QLXZzmjE-2" value="The second transaction won&#39;t start until" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1835" y="-1172" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
