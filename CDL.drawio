@@ -56,7 +56,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRgt93gBTPDrRPMrINUv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="iRgt93gBTPDrRPMrINUv-2" edge="1">
+        <mxCell id="iRgt93gBTPDrRPMrINUv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="iRgt93gBTPDrRPMrINUv-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1810" y="130" as="targetPoint" />
           </mxGeometry>
@@ -107,7 +107,7 @@
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-21" value="Buffer Occupancy Register (0x8)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1685" y="-310" width="335" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lzEfek82S-WKOb3gacOX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-24" edge="1" target="Rrrluii0wSyhbjd0ohwf-8">
+        <mxCell id="lzEfek82S-WKOb3gacOX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-24" target="Rrrluii0wSyhbjd0ohwf-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1270" y="-196" as="targetPoint" />
           </mxGeometry>
@@ -196,13 +196,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-105" value="hresp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1265" y="20" width="50" height="30" as="geometry" />
+          <mxGeometry x="-580" y="134" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-106" value="hready" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1265" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-580" y="260" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-108" value="D_MODE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1330" y="-40" width="70" height="30" as="geometry" />
+          <mxGeometry x="-775" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FSMfBafoIfJvL1EwG2Og-1" value="For hsize, the maximum is 8-byte, but hrdata and hwdata are only 4-byte&lt;div&gt;Asking about timing of data buffer&lt;br&gt;How would overlapping transaction work for multiple byte transfer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1285" y="-1035" width="410" height="60" as="geometry" />
@@ -478,7 +478,7 @@
         <mxCell id="lzEfek82S-WKOb3gacOX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lzEfek82S-WKOb3gacOX-12" target="QHRbs6eN2zpw3UnOuxiN-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lzEfek82S-WKOb3gacOX-12" target="Rrrluii0wSyhbjd0ohwf-7">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lzEfek82S-WKOb3gacOX-12" target="Rrrluii0wSyhbjd0ohwf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lzEfek82S-WKOb3gacOX-12" value="Buffer_Occupancy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -496,16 +496,16 @@
         <mxCell id="lzEfek82S-WKOb3gacOX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lzEfek82S-WKOb3gacOX-20" target="QHRbs6eN2zpw3UnOuxiN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-105">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-105" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1280" y="40" as="targetPoint" />
+            <mxPoint x="-725" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-106">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRgt93gBTPDrRPMrINUv-2" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AHB Control Logic (Comb.)&lt;div&gt;always_comb:&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;// hresp logic&lt;/div&gt;&lt;div&gt;&amp;nbsp;hresp = hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//hready logic&lt;/div&gt;&lt;div&gt;hready = 1;&lt;/div&gt;&lt;div&gt;error_detected =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/span&gt;&lt;/div&gt;&lt;div&gt;if (current_state == DATA_PHASE_B1 || DATA_PHASE_B2 || DATA_PHASE_B3)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;hready&amp;nbsp; = 0;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1805" y="-10" width="405" height="240" as="geometry" />
+        <mxCell id="iRgt93gBTPDrRPMrINUv-2" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AHB Control Logic (Comb.)&lt;div&gt;always_comb:&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;// hresp logic&lt;/div&gt;&lt;div&gt;&amp;nbsp;hresp = hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//hready logic&lt;/div&gt;&lt;div&gt;hready = 1;&lt;/div&gt;&lt;div&gt;error_detected =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;case (current_state)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;IDLE: begin if (hsel &amp;amp;&amp;amp; htrans == 2&#39;b10) // NONSEQ transaction next_state = ADDR_PHASE; end ADDR_PHASE: begin if (!valid_access &amp;amp;&amp;amp; hsel) next_state = ERROR_PHASE_1; else if (valid_access) begin if (haddr_reg == DATA_BUFFER_ADDR) next_state = DATA_PHASE_BYTE_1; else next_state = IDLE; // Single cycle for non-buffer registers end end DATA_PHASE_BYTE_1: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 1) next_state = DATA_PHASE_BYTE_2; end DATA_PHASE_BYTE_2: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 2) next_state = DATA_PHASE_BYTE_3; end DATA_PHASE_BYTE_3: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 3)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;next_state = DATA_PHASE_BYTE_4;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;DATA_PHASE_BYTE_4: begin next_state = IDLE; // Always return to IDLE after 4th byte end ERROR_PHASE_1: begin next_state = ERROR_PHASE_2; // Always proceed to second error phase end ERROR_PHASE_2: begin next_state = IDLE; // Return to IDLE after error handling end endcase end&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1250" y="30" width="540" height="660" as="geometry" />
         </mxCell>
         <mxCell id="iRgt93gBTPDrRPMrINUv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="iRgt93gBTPDrRPMrINUv-4" target="iRgt93gBTPDrRPMrINUv-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -579,45 +579,45 @@
         <mxCell id="iRgt93gBTPDrRPMrINUv-30" value="hsel &amp;amp; (htrans == NONSEQ)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1830" y="-1665" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-1" value="valid_access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-1" value="valid_access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1715" y="-1450" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-2" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-2" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1850" y="-1257" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-3" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-3" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2185" y="-1250" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-4" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-4" value="valid_access &amp;amp;&amp;nbsp;&lt;div&gt;(byte_counter &amp;lt; byte_total)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2310" y="-1460" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rrrluii0wSyhbjd0ohwf-7" target="QHRbs6eN2zpw3UnOuxiN-19">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Rrrluii0wSyhbjd0ohwf-7" target="QHRbs6eN2zpw3UnOuxiN-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-7" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Status Register Bits&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;status_reg[0] =&amp;nbsp; (buffer_occupancy &amp;gt; 0);&lt;div&gt;status_reg[1] = (rx_packet == IN);&lt;/div&gt;&lt;div&gt;status_reg[2] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == OUT);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[3] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == ACK);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[4] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == DATA0);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[5] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == DATA1);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;status_reg[8] = rx_transfer_active&lt;/div&gt;&lt;div&gt;status_reg[9] = tx_transfer_active;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-7" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Status Register Bits&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;status_reg[0] =&amp;nbsp; (buffer_occupancy &amp;gt; 0);&lt;div&gt;status_reg[1] = (rx_packet == IN);&lt;/div&gt;&lt;div&gt;status_reg[2] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == OUT);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[3] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == ACK);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[4] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == DATA0);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;status_reg[5] =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(rx_packet == DATA1);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;status_reg[8] = rx_transfer_active&lt;/div&gt;&lt;div&gt;status_reg[9] = tx_transfer_active;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1110" y="-560" width="290" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rrrluii0wSyhbjd0ohwf-8">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Rrrluii0wSyhbjd0ohwf-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-890" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-8" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TX_Packet_Control&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;case(tx_packet_control_reg):&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1: tx_packet = DATA0;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = DATA1;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = ACK;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = NAK;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;5:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = STALL;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-8" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TX_Packet_Control&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;case(tx_packet_control_reg):&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1: tx_packet = DATA0;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = DATA1;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = ACK;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = NAK;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;5:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_packet = STALL;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1260" y="-250" width="315" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rrrluii0wSyhbjd0ohwf-11" target="Rrrluii0wSyhbjd0ohwf-7">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rrrluii0wSyhbjd0ohwf-11" target="Rrrluii0wSyhbjd0ohwf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-11" value="rx_packet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-11" value="rx_packet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1005" y="-660" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-17" value="tx_packet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-17" value="tx_packet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-880" y="-196" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.148;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lzEfek82S-WKOb3gacOX-4" target="Rrrluii0wSyhbjd0ohwf-7">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.148;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lzEfek82S-WKOb3gacOX-4" target="Rrrluii0wSyhbjd0ohwf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.86;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lzEfek82S-WKOb3gacOX-2" target="Rrrluii0wSyhbjd0ohwf-7">
+        <mxCell id="Rrrluii0wSyhbjd0ohwf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.86;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lzEfek82S-WKOb3gacOX-2" target="Rrrluii0wSyhbjd0ohwf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
