@@ -205,8 +205,8 @@
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-7" target="QHRbs6eN2zpw3UnOuxiN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FSMfBafoIfJvL1EwG2Og-1" value="For hsize, the maximum is 8-byte, but hrdata and hwdata are only 4-byte&lt;div&gt;Asking about timing of data buffer&lt;br&gt;How would overlapping transaction work for multiple byte transfer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1285" y="-1035" width="410" height="60" as="geometry" />
+        <mxCell id="FSMfBafoIfJvL1EwG2Og-1" value="For hsize, the maximum is 8-byte, but hrdata and hwdata are only 4-byte&lt;div&gt;Asking about timing of data buffer&lt;br&gt;How would overlapping transaction work for multiple byte transfer&lt;/div&gt;&lt;div&gt;How would the RAW_pipeline work for multiple bytes transaction.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1285" y="-1040" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UGpiMF6Xy7v_J2eOc4yS-1" value="" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1755" y="348" width="50" height="63" as="geometry" />
