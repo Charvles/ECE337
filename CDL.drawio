@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Page-1" id="CIUqX_opJBH0Y3FECrZX">
-    <mxGraphModel dx="3967" dy="3443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3955" dy="3030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,9 +56,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRgt93gBTPDrRPMrINUv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="iRgt93gBTPDrRPMrINUv-2" edge="1">
+        <mxCell id="iRgt93gBTPDrRPMrINUv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="PXv2H6sLu2F9jhcjz_uN-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1810" y="130" as="targetPoint" />
+            <mxPoint x="-1780" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXv2H6sLu2F9jhcjz_uN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="PXv2H6sLu2F9jhcjz_uN-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1780" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXv2H6sLu2F9jhcjz_uN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QHRbs6eN2zpw3UnOuxiN-1" target="PXv2H6sLu2F9jhcjz_uN-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1780" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-1" value="Address Decoder (Comb)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -194,15 +204,6 @@
         </mxCell>
         <mxCell id="QHRbs6eN2zpw3UnOuxiN-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QHRbs6eN2zpw3UnOuxiN-7" target="QHRbs6eN2zpw3UnOuxiN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QHRbs6eN2zpw3UnOuxiN-105" value="hresp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="134" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QHRbs6eN2zpw3UnOuxiN-106" value="hready" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="260" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QHRbs6eN2zpw3UnOuxiN-108" value="D_MODE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-775" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FSMfBafoIfJvL1EwG2Og-1" value="For hsize, the maximum is 8-byte, but hrdata and hwdata are only 4-byte&lt;div&gt;Asking about timing of data buffer&lt;br&gt;How would overlapping transaction work for multiple byte transfer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1285" y="-1035" width="410" height="60" as="geometry" />
@@ -496,17 +497,6 @@
         <mxCell id="lzEfek82S-WKOb3gacOX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lzEfek82S-WKOb3gacOX-20" target="QHRbs6eN2zpw3UnOuxiN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-105" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-725" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Rrrluii0wSyhbjd0ohwf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="iRgt93gBTPDrRPMrINUv-2" target="QHRbs6eN2zpw3UnOuxiN-106" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iRgt93gBTPDrRPMrINUv-2" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AHB Control Logic (Comb.)&lt;div&gt;always_comb:&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;// hresp logic&lt;/div&gt;&lt;div&gt;&amp;nbsp;hresp = hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//hready logic&lt;/div&gt;&lt;div&gt;hready = 1;&lt;/div&gt;&lt;div&gt;error_detected =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hsel &amp;amp;&amp;amp; (~valid_address | (hwrite &amp;amp; ~valid_write));&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;case (current_state)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;IDLE: begin if (hsel &amp;amp;&amp;amp; htrans == 2&#39;b10) // NONSEQ transaction next_state = ADDR_PHASE; end ADDR_PHASE: begin if (!valid_access &amp;amp;&amp;amp; hsel) next_state = ERROR_PHASE_1; else if (valid_access) begin if (haddr_reg == DATA_BUFFER_ADDR) next_state = DATA_PHASE_BYTE_1; else next_state = IDLE; // Single cycle for non-buffer registers end end DATA_PHASE_BYTE_1: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 1) next_state = DATA_PHASE_BYTE_2; end DATA_PHASE_BYTE_2: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 2) next_state = DATA_PHASE_BYTE_3; end DATA_PHASE_BYTE_3: begin if (byte_counter == bytes_total) next_state = IDLE; else if (bytes_total &amp;gt; 3)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;next_state = DATA_PHASE_BYTE_4;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;DATA_PHASE_BYTE_4: begin next_state = IDLE; // Always return to IDLE after 4th byte end ERROR_PHASE_1: begin next_state = ERROR_PHASE_2; // Always proceed to second error phase end ERROR_PHASE_2: begin next_state = IDLE; // Return to IDLE after error handling end endcase end&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1250" y="30" width="540" height="660" as="geometry" />
-        </mxCell>
         <mxCell id="iRgt93gBTPDrRPMrINUv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="iRgt93gBTPDrRPMrINUv-4" target="iRgt93gBTPDrRPMrINUv-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -619,6 +609,15 @@
         </mxCell>
         <mxCell id="Rrrluii0wSyhbjd0ohwf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.86;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lzEfek82S-WKOb3gacOX-2" target="Rrrluii0wSyhbjd0ohwf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PXv2H6sLu2F9jhcjz_uN-4" value="D_Mode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1780" y="77.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXv2H6sLu2F9jhcjz_uN-5" value="hresp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1770" y="134.25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PXv2H6sLu2F9jhcjz_uN-6" value="hready" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1775" y="181" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
